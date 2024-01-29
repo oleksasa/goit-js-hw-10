@@ -48,7 +48,7 @@ document.querySelector('.form').addEventListener('submit', function (event) {
         backgroundColor: '#EF4040',
         progressBarColor: '#B51B1B',
         icon: 'icon-bi_x-octagon',
-        class:'custom-toast',
+        class: 'custom-toast',
         ...toastOptions,
       });
     });

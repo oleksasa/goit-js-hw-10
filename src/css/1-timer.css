@@ -116,8 +116,8 @@ button {
   display: inline-block;
 }
 
-button:disabled{
-  background-color: #CFCFCF;
+button:disabled {
+  background-color: #cfcfcf;
   color: #989898;
 }
 
@@ -177,5 +177,3 @@ span.flatpickr-day:hover {
   line-height: 24px;
   text-transform: uppercase;
 }
-
-

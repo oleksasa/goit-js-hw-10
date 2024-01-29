@@ -6,9 +6,13 @@ import 'izitoast/dist/css/iziToast.min.css';
 let userSelectedDate;
 let countdownInterval;
 let startButton = document.querySelector('[data-start]');
+
 const timerDays = document.querySelector('.timer [data-days]');
+
 const timerHours = document.querySelector('.timer [data-hours]');
+
 const timerMinutes = document.querySelector('.timer [data-minutes]');
+
 const timerSeconds = document.querySelector('.timer [data-seconds]');
 
 const toastOptions = {
@@ -29,9 +33,17 @@ const options = {
   locale: {
     firstDayOfWeek: 1,
     weekdays: {
-      shorthand: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Su"],
-      longhand: [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-    }
+      shorthand: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Su'],
+      longhand: [
+        'Sunday',
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday',
+      ],
+    },
   },
   onClose(selectedDates) {
     if (countdownInterval) {

@@ -1,8 +1,6 @@
-body{
-   padding: 40px; 
+body {
+  padding: 40px;
 }
-
-
 
 @font-face {
   font-family: 'icomoon';
@@ -62,12 +60,12 @@ body{
   color: #fff;
 }
 
-form{
-    max-width: 360px;
+form {
+  max-width: 360px;
 }
 
 input[type='number'] {
-  margin-top: 8px;  
+  margin-top: 8px;
   width: 360px;
   height: 40px;
   border: 1px solid #808080;
@@ -98,10 +96,8 @@ label {
 
 .check-lable {
   display: flex;
-  align-items: center;  
+  align-items: center;
 }
-
-
 
 button {
   width: 360px;
@@ -145,7 +141,7 @@ fieldset:active {
 }
 
 input[type='radio'] {
-  min-width: 16px; 
+  min-width: 16px;
   min-height: 16px;
   margin: 8px;
 }
@@ -156,7 +152,6 @@ legend {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; 
+  line-height: 24px;
   letter-spacing: 0.64px;
 }
-
