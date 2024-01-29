@@ -1,0 +1,162 @@
+body{
+   padding: 40px; 
+}
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?gbz7oa');
+  src: url('../fonts/icomoon.eot?gbz7oa#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?gbz7oa') format('truetype'),
+    url('../fonts/icomoon.woff?gbz7oa') format('woff'),
+    url('../fonts/icomoon.svg?gbz7oa#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close-messege:before {
+  content: '\e900';
+  color: #fff;
+}
+.icon-bi_x-octagon:before {
+  content: '\e904';
+  color: #fafafb;
+}
+.icon-chek:before {
+  content: '\e903';
+  color: #fff;
+}
+.icon-warning:before {
+  content: '\e901';
+  color: #fff;
+}
+.icon-close:before {
+  content: '\e902';
+  color: #fafafb;
+}
+
+.custom-toast.iziToast > .iziToast-close {
+  font-family: 'icomoon' !important;
+  background: none;
+}
+.custom-toast.iziToast > .iziToast-close:before {
+  content: '\e900';
+  color: #fff;
+}
+
+form{
+    max-width: 360px;
+}
+
+input[type='number'] {
+  margin-top: 8px;  
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 0;
+  margin-bottom: 24px;
+  padding-left: 16px;
+}
+
+input[type='number']:hover {
+  border-color: #000000;
+}
+
+input[type='number']:active {
+  border: 1px solid #4e75ff;
+}
+
+label {
+  flex-wrap: wrap;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.check-lable {
+  display: flex;
+  align-items: center;  
+}
+
+
+
+button {
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  background-color: #4e75ff;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #6c8cff;
+}
+
+fieldset {
+  width: 360px;
+  max-height: 64px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 0;
+  margin: 0 0 38px 0;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 48px;
+  padding-top: 14px;
+  padding-bottom: 8px;
+}
+
+fieldset:hover {
+  border-color: #000000;
+}
+
+fieldset:active {
+  border: 1px solid #4e75ff;
+}
+
+input[type='radio'] {
+  min-width: 16px; 
+  min-height: 16px;
+  margin: 8px;
+}
+
+legend {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  letter-spacing: 0.64px;
+}
+

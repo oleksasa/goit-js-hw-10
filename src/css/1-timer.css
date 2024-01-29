@@ -1,0 +1,181 @@
+body {
+  padding-top: 36px;
+  padding-left: 150px;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?gbz7oa');
+  src: url('../fonts/icomoon.eot?gbz7oa#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?gbz7oa') format('truetype'),
+    url('../fonts/icomoon.woff?gbz7oa') format('woff'),
+    url('../fonts/icomoon.svg?gbz7oa#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close-messege:before {
+  content: '\e900';
+  color: #fff;
+}
+.icon-bi_x-octagon:before {
+  content: '\e904';
+  color: #fafafb;
+}
+.icon-chek:before {
+  content: '\e903';
+  color: #fff;
+}
+.icon-warning:before {
+  content: '\e901';
+  color: #fff;
+}
+.icon-close:before {
+  content: '\e902';
+  color: #fafafb;
+}
+
+.custom-toast.iziToast > .iziToast-close {
+  font-family: 'icomoon' !important;
+  background: none;
+}
+.custom-toast.iziToast > .iziToast-close:before {
+  content: '\e900';
+  color: #fff;
+}
+
+.flatpickr-calendar {
+  font-family: Montserrat, sans-serif;
+  border-radius: 8px !important;
+  background: #f5f5f5 !important;
+}
+
+.flatpickr-weekday {
+  font-weight: 500 !important;
+  color: #2e2f42 !important;
+  text-align: center;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  font-style: normal;
+}
+span.flatpickr-day.today {
+  border: 1px solid;
+  border-color: #4e75ff !important;
+  background: transparent !important;
+}
+
+span.flatpickr-day.selected {
+  background-color: #4e75ff !important;
+}
+
+span.flatpickr-day:hover {
+  background-color: #c1c1c1 !important;
+}
+
+input {
+  width: 274px;
+  height: 36px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-right: 8px;
+  padding-left: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: black;
+}
+
+button {
+  width: 72px;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  background-color: #4e75ff;
+  display: inline-block;
+}
+
+button:disabled{
+  background-color: #CFCFCF;
+  color: #989898;
+}
+
+button:hover {
+  background-color: #6c8cff;
+}
+
+.flatpickr-calendar {
+  border-radius: 8px !important;
+  background: #f5f5f5 !important;
+}
+
+span.flatpickr-day.today {
+  border: 1px solid;
+  border-color: #4e75ff !important;
+  background: transparent !important;
+}
+
+span.flatpickr-day.selected {
+  background-color: #4e75ff !important;
+}
+
+span.flatpickr-day:hover {
+  background-color: #c1c1c1 !important;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+}
+
+.field {
+  margin-top: 32px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.value {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 1.6px;
+}
+
+.label {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+
