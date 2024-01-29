@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Manrope:wght@400;500&family=Montserrat:wght@400;700&family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-77e16229.js">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/2-snackbar-b3e8fc3a.css">
+  </head>
+  <body>
+    <form class="form">
+      <label>
+        Delay (ms)
+        <input type="number" name="delay" required />
+      </label>
+
+      <fieldset>
+        <legend>State</legend>
+        <label class="check-lable">
+          <input
+            type="radio"
+            name="state"
+            value="fulfilled"
+            required
+            class="custom-checkbox"
+          />
+          Fulfilled
+        </label>
+        <label class="check-lable">
+          <input
+            type="radio"
+            name="state"
+            value="rejected"
+            required
+            class="custom-checkbox"
+          />
+          Rejected
+        </label>
+      </fieldset>
+
+      <button type="submit">Create notification</button>
+    </form>
+    <a href="./index.html">Go back</a>
+    
+  </body>
+</html>
